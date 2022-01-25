@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="A Personal Blog Website made by René Aslanov">
+    <link rel="stylesheet" href="..\CSS\style.css">
+    <title>Blog Post</title>
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="nav">
+            <p class="logo"><a href="index.html">René Aslanov</a></p>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#bpHeadline">latest Blog</a></li>
+                <li><a href="#newsletter">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="blogPostMain">
+
+        <div class="blogPostContent">
+            <h1 class="blogPostHeadline" id="bpHeadline">Japan at Night</h1>
+            <p class="authorInfo"><b>René Aslanov | 24.1.2022</b></p>
+            <p class="textPrePicture">
+                Enlightenment passion spirit passion gains evil truth war.
+                Intentions right <strong>battle law of sea</strong> ocean madness ubermensch horror ubermensch horror mountains grandeur.
+                Virtues free deceptions horror truth contradict ocean prejudice.
+                Revaluation spirit snare justice ascetic horror against burying self disgust horror.
+                Joy inexpedient moral <q>joy of god</q> derive philosophy joy justice gains decieve.
+                Zarathustra right hatred law fearful morality deceptions <strong>evil philosophy</strong> endless.
+                Noble value christianity philosophy.
+            </p>
+
+            <div class="pictureBox">
+                <img src="..\images\tokyoNight.jpg" alt="picture of japan at night" class="cardPicture">
+                <p class="pictureDescription"> <em>just a normal night in Tokyo</em></p>
+            </div>
+
+            <p class="TextPostPicture">
+                Oneself pious society hatred suicide christian philosophy hope insofar ideal moral grandeur.
+                Gains sexuality strong good society evil intentions free law mountains.
+                Prejudice abstract convictions suicide ideal victorious sea reason.
+                Passion sea derive mountains noble convictions spirit aversion grandeur society ubermensch.
+                Ascetic morality abstract war ultimate aversion will. Moral prejudice victorious faith intentions intentions good sea war.
+                Snare pinnacle victorious contradict dead pinnacle.
+                <em>Hatred insofar mountains contradict free holiest transvaluation grandeur</em> salvation truth.
+                <u> Selfish battle </u> derive enlightenment madness oneself abstract contradict philosophy zarathustra. Morality ocean against.
+            </p>
+        </div>
+
+        <div class="blogPostSidebar">
+
+            <div class="sidebar bps">
+                <h2 class="category">Category</h2>
+                <p class="categories">Japan</p>
+                <p class="categories">Food</p>
+                <p class="categories">Nightlife</p>
+                <p class="categories">Tokyo</p>
+                <p class="categories">Hotel</p>
+            </div>
+
+        </div>
+  
+    </main>
+
+    <h2 class="otherPost">Other Posts</h2>
+
+    <article class="cards bpc">
+            
+        <div class="blogcard">
+            <h2 class="cardTitle">Black Coffee</h2>
+            <img src="..\images\blackCoffee.jpeg" alt="picture of a cup of coffee" class="cardPicture">
+            <p class="cardPreview">
+                The secret behing black coffee is [...]
+            </p>
+            <a href="#" class="cardButton">Read More</a>
+
+        </div>
+
+        <div class="blogcard">
+            <h2 class="cardTitle">Night Walk</h2>
+            <img src="..\images\nightWalk.jpg" alt="picture of a beach at night" class="cardPicture">
+            <p class="cardPreview"> 
+                This one time we were at the beach, one of us [...]
+            </p>
+            <a href="#" class="cardButton">Read More</a>
+        </div>
+
+    </article>
+
+    <footer class="footer bpf">
+
+        <div class="about">
+            <h3 class="aboutHeadline">About</h3>
+            <p class="aboutText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste officiis eaque magni,
+                 libero blanditiis eius totam maxime hic voluptates,
+                  nisi dignissimos neque praesentium labore sapiente porro provident, quis facere assumenda!</p>
+
+            <p class="quote">Das ist mein Weg, welches ist Dein Weg? DEN Weg gibt es nicht.</p>
+            <p class="quoteAuthor">- Friedrich Nietsche</p>
+
+        </div>
+
+        <div class="newsletter" id="newsletter">
+            <h3>Newsletter</h3>
+            <form class="form" action="index.html">
+                <label for="name" class="formElement">Your Name</label>
+                <input type="text" name="name" id="name" class="formElement" required>
+                <label for="email" class="formElement">E-Mail Adress</label>
+                <input type="email" name="email" id="email" class="formElement" required>
+                <input type="submit" value="Subscribe!" class="formElement submit">
+            </form>
+            
+        </div>
+
+        <div class="socialMedia">
+            <h3>Social Media</h3>
+            <p>You can also find me here</p>
+            <!-- This code is from "https://iconify.design/" so i dont have to download the individual pictures for every social media -->
+            <div class="socialMediaIcons">
+                <a href="#" class="icons"><span class="iconify" data-icon="akar-icons:twitter-fill"></span></a>
+                <a href="#" class="icons"><span class="iconify" data-icon="akar-icons:youtube-fill"></span></a>
+                <a href="#" class="icons"><span class="iconify" data-icon="akar-icons:facebook-fill"></span></a>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- this script is used so the iconify svg's work-->
+    <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+.blogPostMain
+{
+    margin: 150px 10% 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.85em;
+}
+
+.authorInfo
+{
+    font-size: 0.7em;
+    margin-bottom: 2em;
+}
+
+q
+{
+    font-family: "Playfair Display";
+}
+
+q::before
+{
+    content: open-quote;
+}
+
+q::after
+{
+    content: close-quote;
+}
+
+.pictureBox
+{
+    padding: 1em;
+    margin: 1em 0;
+    border: 1px solid rgba(34, 35, 36, 10%);
+}
+
+.pictureBox img
+{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.pictureDescription
+{
+    margin: 0;
+}
+
+.otherPost
+{
+    justify-content: center;
+    margin: 0 10% 2em;
+    text-align: center;
+}
+
+.bps
+{
+    margin: 0;
+}
+
+.bpc
+{
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.bpf
+{
+    margin-top: 2.5rem;
+}
+
+.quote
+{
+    margin-top: 1.5em;
+}
+
+.quote::before
+{
+    content: open-quote;
+    font-size: 1.5rem;
+}
+
+.quote::after
+{
+    content: close-quote;
+    font-size: 1.5rem;
+}
+
+@media(min-width: 850px)
+{
+    .blogPostMain
+    {
+        grid-template-rows: 1fr;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 2em;
+        font-size: 1.1em;
+    }
+
+    .bpc
+    {
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 10% 10%;
+    }
+
+    .bps
+    {
+        margin-top: 2em;
+    }
+
+}

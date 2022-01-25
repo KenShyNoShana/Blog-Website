@@ -1,0 +1,131 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #222324;
+    align-items: center;
+    padding: 0 auto;
+    height: 100px;
+    width: auto;
+}
+
+.logo
+{
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 20px 0 20px 0;
+    justify-content: flex-start;
+    
+}
+
+.logo a
+{
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin: 20px 0 20px 0;
+    transition: ease-in 0.4s;
+}
+
+.menu
+{
+    color: white;
+    text-decoration: none;
+    justify-content: flex-end;
+    margin: 0;
+    font-size: 1.2rem;
+    list-style-type: none;
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul li
+{
+    justify-content: flex-end;
+    flex-direction: row;
+    margin: 0 15px 0 15px;
+}
+
+li a
+{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px 0 15px;
+    transition: ease-in 0.4s;
+}
+
+
+
+@media(min-width: 850px)
+{
+    .nav
+    {
+        flex-direction: row;
+    }
+
+    .logo a
+    {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .logo
+    {
+        width: 25%;
+        padding: 0 20px 0 20px;
+    }
+
+    .logo a:hover
+    {
+        color: rgba(152, 122, 236, 0.8);
+        border: 1px solid rgba(152, 122, 236, 0.8);
+        border-radius: 3px;
+        padding: 0 1em;
+    }
+
+    .menu
+    {
+        color: white;
+        text-decoration: none;
+        justify-content: flex-end;
+        margin-right: 20px;
+        font-size: 1.2rem;
+        list-style-type: none;
+        display: flex;
+        width: 100%;
+    }
+
+    ul li
+    {
+        flex-direction: row;
+        margin: 0 35px 0 35px;
+        justify-content: flex-end;
+    }
+    
+    li a:hover
+    {
+        color: rgba(152, 122, 236, 0.8);
+        text-decoration: underline;
+    }
+
+}
